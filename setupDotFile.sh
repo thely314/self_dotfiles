@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DotFileDir="."
+DotFileDir="~/dotfile"
 
 ln -s "$DotFileDir/.bashrc" "$HOME/.bashrc"
 
