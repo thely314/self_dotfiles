@@ -24,7 +24,7 @@ symlinkCreate() {
 	fi
 }
 
-for name in .bashrc; do
+for name in .bashrc .zshrc; do
 		if [ ! -d "$name" ]; then
 				target="$HOME/$name"
 				backup $target
