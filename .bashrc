@@ -188,9 +188,9 @@
 # }
 # 
 # alias cd=cd_func
-alias cls=clear
+alias clr=clear
 alias sl=ls
-alias ll="ls -lh"
+alias ll="ls -lah"
 alias ..="cd .."
 alias rm="rm -i"
 alias mv="mv -i"
